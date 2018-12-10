@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenTK">
+      <Version>3.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="OpenTK.NETCore">
+      <Version>1.1.2749.6433</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
